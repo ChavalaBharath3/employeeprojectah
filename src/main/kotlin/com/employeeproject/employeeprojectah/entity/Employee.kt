@@ -13,5 +13,6 @@ data class Employee(
     val employeeId:Long=0,
     val firstName:String="",
     val lastName:String="",
+    //Review 1132022 - Asmit Basu - department name should be indexed for faster searches
     val department:String="") {
 }
